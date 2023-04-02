@@ -1,6 +1,19 @@
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
+</head>
 <header>
 <h1>Our Class</h1>
 </header>
+
+<nav>
+<a href "index.html"> Home Page</a>
+<a href "Our class"> Class members</a>
+</nav>
 
 <p>
 Our class of high-performing digital technology students likes to get stuck into any project that takes their fancy.
@@ -13,9 +26,9 @@ Student Profiles
 </h2>
 
 
-<h4>
+<h3>
 Ruòxī
-</h4>
+</h3>
 <p>
 Ruòxī is a boisterous student who likes to get stuck in with practical work. She’s worked on:
 </p>
@@ -31,9 +44,9 @@ Sports training systems
 <img src="ruòxī.jpg" alt= photo of Ruoxi>
 
     
-<h4>
+<h3>
 Priya
-</h4>
+</h3>
 <p>
 Priya loves working with people and visual systems. She’s worked on:
 </p>
@@ -49,9 +62,9 @@ Animal classification apps
 <img src="priya.jpg" alt= photo of priya>
 
     
-<h4>  
+<h3>  
 Aniyah
-</h4>
+</h3>
 <p>
 Aniyah is a mathematician through-and-through. She’s worked on:
 </p>
@@ -66,9 +79,9 @@ Computer graphics
 </li>
 <img src="aniyah.jpg" alt= photo of Aniya>
     
-<h4>  
+<h3>  
 Lucy
-</h4>
+</h3>
 <p>
 Lucy loves data and getting everything organised. She’s worked on:
 </p>
@@ -82,9 +95,9 @@ Student information systems
 Long-term extracurricular trends
 </li>
     
-<h4> 
+<h3> 
 Kaiara
-<h4
+</h3>
 Kaiara is a driven entrepreneur and drives app development forward. She’s worked on:
 
 <li>
@@ -111,12 +124,28 @@ Personal drive is celebrated here, and we like to give our students the opportun
 <style>
 body {background-color: #cb807d;
 }
-h1,h2,h4 { font-family: 'Abril fatface';
+h1,h2,h3 { font-family: 'Abril fatface';
 }
-h1,h2,h4 {color: white; 
+h1,h2,h3 {color: white; 
 }
 p { color: white;
 font-family: Roboto;  
 }
 li {color:white;}
+
+h1 { font-family: 'Abril Fatface', cursive; }
+
+body {
+
+display: grid;
+grid: " h    h    n  " 3em
+" .    m    .  " auto
+" f    f    f  " 5em
+/ 1fr  5fr  1fr;
+}
+header { grid-area: h; }
+nav    { grid-area: n; }
+main   { grid-area: m; }
+footer { grid-area: f; }
 </style>
+</html>
