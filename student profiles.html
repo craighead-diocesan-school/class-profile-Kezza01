@@ -1,28 +1,26 @@
 <html>
-
+<body>
 <head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
-
-
-<body>
-
-<header>
-<h1> Our School</h1>
-</header>
+<h1> Students In The Class</h1>
 
 <nav>
-<a href ="Our class"> Meet The Class</a>
-<a class="active" href="index.html"> Home Page</a>
-<a href ="Our school.html"> Our School</a>
+<a href="main.html"> Our school</a>
+<a class="active" href ="student profiles.html"> Student Profiles</a>
+<a href ="Our Class.html"> Our Class</a>
 </nav>
-
-
-
-
+<main>
+<p> Our class of high-performing digital technology students likes to get stuck into any project that takes their fancy.
+The girls are in their final year at secondary school and are all working on personal projects that interest them.</p>
+</main>
 </body>
 
 <style>
@@ -38,19 +36,19 @@ p { color: white;
 font-family: Roboto;  
 }
 li {color:white;}
-
+    
 h1 { font-family: 'Abril Fatface', cursive; }
+main { font-family: 'Roboto', sans-serif;} 
 
 img { height: 100%
 text: align; 
 display: block; }
-
+    
 display: grid;
-grid: " h    h    n  " 3em
+ grid: " h    h    n  " 3em
 " .    m    .  " auto
 " f    f    f  " 5em
 / 1fr  5fr  1fr;
-}
 header { grid-area: h; }
 nav    { grid-area: n; }
 main   { grid-area: m; }
